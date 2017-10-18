@@ -1,0 +1,30 @@
+<!doctype html>
+<html>
+  <head>
+      <meta charset="utf-8">
+      <title>JS and JQ Content Slider Test</title>
+      <link rel="stylesheet" href="css/styles.css">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+      <script>
+      	
+      	$(document).ready(function(){
+      		/*(I took this code out. It turned h1 red on click.)
+      				$('.myLink').on('click', function(){
+      						$('h1').addClass('red');
+      				});*/
+      				$('.myLink').click(function(){
+      				$('h1').text('You Changed my HTML!');
+      		});
+
+      				
+      	});
+      		
+      </script>
+  </head>
+  <body>
+  	<h1>A Very Smart Study into JQuery</h1>
+  	<a href="#" class="myLink">Click Me</a>
+
+        
+  </body>
+</html>
